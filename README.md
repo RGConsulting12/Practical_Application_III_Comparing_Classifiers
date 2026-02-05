@@ -1,17 +1,17 @@
 # Practical_Application_III_Comparing_Classifiers
-The dataset comes from the UCI Machine Learning repository [link](https://archive.ics.uci.edu/ml/datasets/bank+marketing).  The data is from a Portugese banking institution and is a collection of the results of multiple marketing campaigns.  We will make use of the article accompanying the dataset [here](CRISP-DM-BANK.pdf) for more information on the data and features.
+The dataset comes from the UCI Machine Learning repository [link](https://archive.ics.uci.edu/ml/datasets/bank+marketing).  The data is from a Portugese banking institution and is a collection of the results of multiple marketing campaigns.  I made use of the article accompanying the dataset [here](CRISP-DM-BANK.pdf) for more information on the data and features.
 
 ## Executive Summary (For Non-Technical Stakeholders)
 
 ### The Business Question
-**"How can we predict which customers are most likely to subscribe to a term deposit, so we can prioritize our telemarketing calls?"**
+**"How can I predict which customers are most likely to subscribe to a term deposit, so I can prioritize our telemarketing calls?"**
 
-### What We Did
-We analyzed 41,188 past customer interactions and built machine learning models to predict subscription likelihood. We tested four different prediction approaches and identified the best one for production use.
+### What Was Done
+Started by analyzing 41,188 past customer interactions and built machine learning models to predict subscription likelihood. Then tested four different prediction approaches and identified the best one for production use.
 
 ### Key Results
 - **Best Model**: Logistic Regression achieved **79% AUC** (meaning it correctly ranks likely subscribers above non-subscribers 79% of the time)
-- **Potential Impact**: By calling only the top 20% of prospects (ranked by model score), we can capture approximately 60% of all subscribers while reducing call volume by 80%
+- **Potential Impact**: By calling only the top 20% of prospects (ranked by model score), this captured approximately 60% of all subscribers while reducing call volume by 80%
 
 ### Top Factors That Predict Subscription
 1. **Economic conditions** (Euribor rate, employment levels) - When rates are lower, subscriptions increase
